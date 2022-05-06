@@ -13,25 +13,62 @@ body {
 
 .top-left {
     float: left;
-
-    background-color: lightcyan;
 }
 
-. principal-tittle {
+.principal-tittle {
     width: 50%;
-    height: 400px;
-    font-size: 40px;    
+    height: 200px;
+    font-size: 40px;
+    display: inline-block;
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.top-left p {
+    color: hsl(300, 43%, 22%);
+    font-size: 20px;
 }
 
 . stars {
-    clear: left;
     width: 50%;
     height: 400px;
-    background-color: lightblue;
+    position: relative;
+    top: 10px;
+    left: 60%;
+    padding: 20px;
 }
 
+.reviews {
+    position: relative;
+    top: -220px;
+    left: 50%;
+    
+}
+
+.report {
+    position: relative;
+    top: -180px;
+    left: 60%;
+}
+
+.besttech {
+    position: relative;
+    top: -140px;
+    left: 70%;
+}
+
+.paragraph-star {
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    text-align: justify;
+    width: 380px;
+    padding: 30px;
+    border-radius: 5%;
+    font-weight: bold;
+}
 .paragraph-star::before {
-    content: "⭐";
+    content: "⭐" "⭐" "⭐" "⭐" "⭐";
 }
 
 .reviews {
@@ -50,6 +87,7 @@ body {
 }
 
 .contribution-customers {
+    clear: left;
     width: 1000px;
     height: 400px;
     /*os itens abaixo estão apenas me ajudando a visualizar as alterações*/
@@ -73,17 +111,28 @@ body {
     left: 130px;
 }
 
-.contribution-customers p {
+.name {
+    color: white
+}
+
+.buyer{
+    color: hsl(333, 80%, 67%)
+}
+
+.depoiment {
+    text-align: justify;
+    width: 80%;
+    margin-left: 30px;
     color: white;
 }
 
 .colton {
-    width: 300px;
+    width: 350px;
     height: 250px;
     position: relative;
     top: 10px;
     left: 10px;
-    background-color: darkmagenta;
+    background-color: hsl(300, 43%, 22%);
     border-radius: 4%;
 }
 
@@ -91,13 +140,13 @@ body {
 }
 
 .irene {
-    width: 300px;
+    width: 350px;
     height: 250px;
     position: relative;
-    top: -150px;
-    left: 330px;
+    top: -200px;
+    left: 400px;
     float: left;
-    background-color: darkmagenta;
+    background-color: hsl(300, 43%, 22%);
     border-radius: 4%;
 }
 
@@ -107,14 +156,14 @@ body {
 }
 
 .ane {
-    width: 300px;
+    width: 350px;
     height: 250px;
     position: relative;
-    top: -300px;
-    left: 10px;
+    top: -400px;
+    left: 200px;
     float: right;
     clear: left;
-    background-color: darkmagenta;
+    background-color: hsl(300, 43%, 22%);
     border-radius: 4%;
 }
 
