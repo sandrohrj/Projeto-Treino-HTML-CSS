@@ -30,15 +30,6 @@ body {
     font-size: 20px;
 }
 
-. stars {
-    width: 50%;
-    height: 400px;
-    position: relative;
-    top: 10px;
-    left: 60%;
-    padding: 20px;
-}
-
 .reviews {
     position: relative;
     top: -220px;
@@ -172,4 +163,7 @@ body {
 
 .attribution {
     clear: right;
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
 }
